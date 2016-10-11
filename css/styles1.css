@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+header {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.12);
+    height: 3.25em;
+    opacity: 0.98;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+body {
+    background-color: #EFDAC9;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+}
+
+figure {
+    position: relative;
+    top: 3.25em;
+    background: url(/img/mountain_mobile2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 6em;
+    width: 100%;
+}
+
+figure h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: white;
+}
+
+body section {
+    position: relative;
+    top: 1.2em;
+}
+
+section ul li section {
+    display: flex;
+    background-color: white;
+    position: relative;
+    top: 2em;
+    margin: 1.3em 0.4em 1em 0.4em;
+    flex-flow: column;
+    padding: 1em;
+    flex-wrap: wrap;
+    border-radius: .5em;
+}
+
+section ul li section p {
+    font-size: 1em;
+    padding: 1em;
+    padding-left: 1.6em;
+}
+
+section ul li section h2 {
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+body>section:first-of-type {
+    background-color: #00D868;
+    position: relative;
+    top: 3.2em;
+    height: 6em;
+    margin: auto;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+    font-size: 16px;
+}
+
+body>header>img:first-of-type {
+    width: 3em;
+    margin: .1em 0em 0em .5em;
+}
+
+nav ul li {
+  display: inline-block;
+  margin:0 auto;
+}
+
+
+@media (min-width:23.4375em) {
+    body aside {
+        display: none;
+    }
+}
