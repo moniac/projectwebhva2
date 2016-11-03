@@ -18,7 +18,7 @@ body
 	background-color:#EFDAC9;
 	font-family:'Open Sans', sans-serif;
 	line-height:20px;
-	padding-bottom:4em;
+	/*padding-bottom:4em;*/
 }
 
 ol,ul
@@ -243,7 +243,7 @@ padding:1em 1em 1em 1.6em;
 }
 
 select,textarea,input[type=text],input[type=password],input[type=datetime],input[type=datetime-local],input[type=date],input[type=month],input[type=time],input[type=week],input[type=number],input[type=email],input[type=url],input[type=search],input[type=tel],input[type=color] {
-font-size:16px;
+font-size:14px;
 }
 
 body > footer {
@@ -350,6 +350,46 @@ width:20em;
 body main form fieldset p {
 	padding-top: 1em;
 }
+
+.filter>h3 {
+	color: white;
+	padding-left: 1.2em;
+	margin-bottom: .3em;
+	font-size: 1.5em;
+}
+
+.filter>h4 {
+	color: white;
+	padding-left: 1.2em;
+	margin-bottom: .3em;
+	font-size: 1.5em;
+	position: absolute;
+right: 0.5em;
+top: 0;
+padding-right: 1em;
+}
+
+.filter>aside {
+position: absolute;
+right: 2em;
+top: 1.5em;
+
+}
+
+.filter>aside>ul>li>label>span {
+display: inline-block;
+position: absolute;
+left: -4em;
+}
+
+.label {
+	width: 2em;
+	position: absolute;
+	right: 5em;
+	top: 0em;
+}
+
+
 
 @media (min-width:0em) {
 body>aside {
@@ -480,7 +520,7 @@ margin:0 auto;
 
 @media (min-width:64.06em) {
 	body {
-	padding-bottom:5em;
+	/*padding-bottom:5em;*/
 	}
 
 	body>aside form {
@@ -609,7 +649,7 @@ div img {
   height: 100%;
   width: 100%;
 	padding-top: 3em;
-margin-bottom: -14em;
+/*margin-bottom: 4em;*/
 background-color: white;
 }
 
@@ -634,7 +674,6 @@ display: none;
 	}
 .article img:nth-child(2) {
 display: block;
-padding-bottom: 2em;
 }
 }
 @media only screen and (min-width: 60em) {
