@@ -17,7 +17,7 @@ plusToVinkje = function () {
     }
     else {
       plusje.innerHTML = "+";
-    };
+    }
   });
 };
 plusToVinkje();
